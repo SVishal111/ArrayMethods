@@ -44,7 +44,7 @@ function sliceFn() {
 
     newArray = array.slice(startVal, endVal);
 
-    document.getElementById("resultArea").value = "["+array+"]";
+    document.getElementById("resultArea").value = "["+newArray+"]";
 }
 
 function concatFn() {
