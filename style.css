@@ -61,3 +61,25 @@ input[type=button]:hover {
     background-color: rgb(255, 123, 0);
 }
 
+
+
+/* responsive part css */
+
+
+
+@media(max-width:740px) {
+    .arrayContainer {
+        padding: 10px 5px;
+    }
+}
+
+@media(max-width:690px) {
+    table {
+        border-spacing: 5px 5px;
+    }
+
+    .arrayContainer {
+        padding: 5px 5px;
+        height: 390px;
+    }
+}
