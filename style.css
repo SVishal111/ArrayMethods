@@ -81,5 +81,39 @@ input[type=button]:hover {
     .arrayContainer {
         padding: 5px 5px;
         height: 390px;
+        width: 650px;
+    }
+}
+
+@media(max-width:650px) {
+    input[type=button] {
+        width: 80px;
+    }
+
+    .arrayContainer {
+        width: 385px;
+    }
+}
+
+@media(max-width:450px) {
+    main {
+        padding: 10px;
+    }
+}
+
+@media(max-width:400px) {
+    input[type=button] {
+        font-size: 14px;
+        width: 70px;
+    }
+
+    .arrayContainer {
+        width: 320px;
+        height: 350px;
+    }
+
+    input[type=text] {
+        padding: 12px;
+        font-size: 20px;
     }
 }
